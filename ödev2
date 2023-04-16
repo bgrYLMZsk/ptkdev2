@@ -1,0 +1,124 @@
+.img{
+    width: 700px;
+    height: 350px;
+    padding-left: 575px;
+
+}
+.search{
+    width: 1002px;
+    height: 130px;
+    background-color: rgb(235, 235, 235);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+.searchp{
+    font-size: 20px;
+    padding:0px;
+    padding-left: 350px;
+    margin-bottom: 2px;
+}
+.searchtext{
+    font-size: 12px;
+    height: 20px;
+    width: 600px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 200px;
+
+}
+.btn{
+    font-size: 16px;
+    height: 40px;
+    width: 300px;
+    padding: 12px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.btn2{
+
+    font-size: 16px;
+    height: 40px;
+    width: 300px;
+    padding: 12px;
+    margin-top: 10px;
+
+}
+.footer{
+    width: 1005px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.footer1{
+    font-size: 20px;
+    text-align: center;
+    width: 333px;
+    height: 130px;
+    background-color: rgba(125, 219, 219, 0.993);
+    float: left;
+    margin-right: 2px;
+}
+.footer2{
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    width: 333px;
+    height: 100px;
+    background-color: rgba(125, 219, 219, 0.993);
+    float: left;
+    margin-right: 2px;
+}
+.footer3{
+    font-size: 20px;
+    text-align: center;
+    width: 333px;
+    height: 130px;
+    background-color: rgba(125, 219, 219, 0.993);
+    float: left;
+    margin-right: 2px;
+}
+
+
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="code.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <img class="img" src="img/googlelogoo.jpg" alt="google">
+    </div>
+
+    <div class="search">
+        <p class="searchp">Search the web using Google!</p>
+        <input class="searchtext" type="text">
+        <input class="btn" type="button" value="Google Search">
+        <input class="btn2" type="button" value="I'm feeling lucky">
+    </div>
+
+    <div class="footer">
+        <div class="footer1">
+            <p>Special Searches</p>
+            <a href="">Stanford Search Linux Search</a>
+        </div>
+        <div class="footer2">
+            <a href="">Help!About Google! Company Info Google! Logos</a>
+        </div>
+        <div class="footer3">
+            <p>Get Google ! updates monthly</p>
+            <input type="text">
+            <button>Subscribe</button>
+            <a href="">Archive</a>
+        </div>
+    </div>
+
+</body>
+</html>
+
